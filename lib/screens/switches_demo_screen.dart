@@ -27,7 +27,7 @@ class _SwitchesDemoScreenState extends State<SwitchesDemoScreen> {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: globalTheme(),
-        home: Scaffold(
+           home: Scaffold(
             appBar: AppBar(),
             body: Center (
                 child: Column(

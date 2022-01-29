@@ -15,7 +15,7 @@ class _AppBarScreenState extends State<AppBarScreen> {
     final ButtonStyle buttonStyle =
     TextButton.styleFrom(primary: Theme.of(context).colorScheme.onPrimary);
     return MaterialApp(
-      //theme: globalTheme(),
+      theme: globalTheme(),
       home: Scaffold(
         body: Center(child: Text('Контент')),
         appBar: AppBar(
