@@ -9,6 +9,6 @@ import 'package:auth_page/screens/panel_app_bar.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(  const MyApp());
+  runApp(  const FilesDemoScreen());
 
   }
